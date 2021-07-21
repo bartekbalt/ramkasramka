@@ -1,0 +1,44 @@
+main {
+    margin: 10%;
+    width: 80%;
+    height: 300px;
+    border: 3px dashed purple;
+    border-radius: 1.5%;
+}
+
+div {
+    position: relative;
+    top: 20px;
+    height: 80px;
+    padding: 10px;
+    background-color: blueviolet;
+}
+
+span {
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 20px;
+    height: 80px;
+    padding: 10px;
+    background-color: blueviolet;
+}
+
+#two {
+    position: fixed;
+    top: 185px;
+    left: 170px;
+    width: 100px;
+    height: 100px;
+    background-color: silver;
+}
+
+#three {
+    width: 20px;
+    height: 20px;
+    background-color: silver;
+    border: 1px solid silver;
+    border-radius: 50%;
+}
