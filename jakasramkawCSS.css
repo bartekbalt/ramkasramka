@@ -11,10 +11,15 @@ div {
     top: 20px;
     height: 80px;
     padding: 10px;
-    background-color: blueviolet;
 }
 
-span {
+section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#lorem {
     color: white;
     text-align: center;
     display: flex;
@@ -26,7 +31,7 @@ span {
     background-color: blueviolet;
 }
 
-#two {
+#square {
     position: fixed;
     top: 185px;
     left: 170px;
@@ -35,10 +40,15 @@ span {
     background-color: silver;
 }
 
-#three {
+#a {
+    top: 25px;
+}
+
+#circle {
     width: 20px;
     height: 20px;
     background-color: silver;
     border: 1px solid silver;
     border-radius: 50%;
+    left: 110px;
 }
